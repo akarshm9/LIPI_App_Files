@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">PDF Viewer</string>
+    <string name="button">Button</string>
+    <string name="syllabus">Syllabus</string>
+    <string name="notes">Notes</string>
+    <string name="welcome_to_lipi_by_the_era_engineers_choose_your_requirement_for_your_notes_or_syllabus">Welcome to LIPI by The Era Engineers. Choose your requirement for your notes or syllabus</string>
+    <string name="syllabus_">Syllabus</string>
+    <string name="select_your_branch_and_semester">Select your branch and semester</string>
+    <string name="_5th_sem">5th Sem</string>
+    <string name="_6thsem">6thSem</string>
+    <string name="_4th_sem">4th Sem</string>
+    <string name="_3rd_sem">3rd Sem</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mechanical_engineering">Mechanical Engineering</string>
+    <string name="computer_science_engineering">Computer Science Engineering</string>
+    <string name="mechanical_engineering_">Mechanical Engineering</string>
+    <string name="electrical_engineering">Electrical Engineering</string>
+    <string name="electronics_engineering">Electronics Engineering</string>
+    <string name="the_era_engineers">The Era Engineers</string>
+    <string name="our_contributors">Our Contributors</string>
+    <string name="our_developers">Our Developers</string>
+    <string name="camera">Camera</string>
+    <string name="start_learning">Start Learning</string>
+</resources>

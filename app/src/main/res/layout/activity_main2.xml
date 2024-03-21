@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    tools:context=".MainActivity2">
+<!--<com.github.barteksc.pdfviewer.PDFView-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:id="@+id/pdf"-->
+
+<!--/>-->
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:id="@+id/toolbar2"
+            app:layout_scrollFlags="scroll|enterAlways"
+            tools:ignore="InvalidId"/>
+        <com.google.android.material.tabs.TabLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:id="@+id/tab1"/>
+        <androidx.viewpager.widget.ViewPager
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/vpager"/>
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="30dp"-->
+<!--            android:text="@string/syllabus_"-->
+<!--            android:textAlignment="center"-->
+<!--            android:textSize="25sp"/>-->
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="35dp"-->
+<!--            android:text="@string/select_your_branch_and_semester"-->
+<!--            android:textAlignment="center"-->
+<!--            android:textSize="20sp"/>-->
+
+
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="25dp"-->
+<!--            android:text="Mechanical Engineering"-->
+<!--            android:layout_marginTop="15sp"-->
+<!--            android:textSize="22sp"/>-->
+<!--        <Button-->
+<!--            android:layout_width="150dp"-->
+<!--            android:layout_height="48dp"-->
+<!--            android:text="@string/_3rd_sem"-->
+<!--            android:textSize="20sp"-->
+<!--            android:layout_marginTop="15dp"/>-->
+<!--        <Button-->
+<!--            android:layout_width="150dp"-->
+<!--            android:layout_height="48dp"-->
+<!--            android:text="@string/_4th_sem"-->
+<!--            android:textSize="20sp"/>-->
+<!--        <Button-->
+<!--            android:layout_width="150dp"-->
+<!--            android:layout_height="48dp"-->
+<!--            android:text="@string/_5th_sem"-->
+<!--            android:textSize="20sp"/>-->
+<!--        <Button-->
+<!--            android:layout_width="150dp"-->
+<!--            android:layout_height="48dp"-->
+<!--            android:text="@string/_6thsem"-->
+<!--            android:textSize="20sp"/>-->
+
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="25dp"-->
+<!--            android:text="Mechanical Engineering"-->
+<!--            android:layout_marginTop="15sp"-->
+<!--            android:textSize="22sp"/>-->
+<!--        <Button-->
+<!--            android:layout_width="150dp"-->
+<!--            android:layout_height="48dp"-->
+<!--            android:text="@string/_3rd_sem"-->
+<!--            android:textSize="20sp"-->
+<!--            android:layout_marginTop="15dp"/>-->
+<!--        <Button-->
+<!--            android:layout_width="150dp"-->
+<!--            android:layout_height="48dp"-->
+<!--            android:text="@string/_4th_sem"-->
+<!--            android:textSize="20sp"/>-->
+<!--        <Button-->
+<!--            android:layout_width="150dp"-->
+<!--            android:layout_height="48dp"-->
+<!--            android:text="@string/_5th_sem"-->
+<!--            android:textSize="20sp"/>-->
+<!--        <Button-->
+<!--            android:layout_width="150dp"-->
+<!--            android:layout_height="48dp"-->
+<!--            android:text="@string/_6thsem"-->
+<!--            android:textSize="20sp"/>-->
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="25dp"-->
+<!--            android:text="Mechanical Engineering"-->
+<!--            android:layout_marginTop="15sp"-->
+<!--            android:textSize="22sp"/>-->
+<!--        <Button-->
+<!--            android:layout_width="150dp"-->
+<!--            android:layout_height="48dp"-->
+<!--            android:text="@string/_3rd_sem"-->
+<!--            android:textSize="20sp"-->
+<!--            android:layout_marginTop="15dp"/>-->
+<!--        <Button-->
+<!--            android:layout_width="150dp"-->
+<!--            android:layout_height="48dp"-->
+<!--            android:text="@string/_4th_sem"-->
+<!--            android:textSize="20sp"/>-->
+<!--        <Button-->
+<!--            android:layout_width="150dp"-->
+<!--            android:layout_height="48dp"-->
+<!--            android:text="@string/_5th_sem"-->
+<!--            android:textSize="20sp"/>-->
+<!--        <Button-->
+<!--            android:layout_width="150dp"-->
+<!--            android:layout_height="48dp"-->
+<!--            android:text="@string/_6thsem"-->
+<!--            android:textSize="20sp"/>-->
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="25dp"-->
+<!--            android:text="Mechanical Engineering"-->
+<!--            android:layout_marginTop="15sp"-->
+<!--            android:textSize="22sp"/>-->
+<!--        <Button-->
+<!--            android:layout_width="150dp"-->
+<!--            android:layout_height="48dp"-->
+<!--            android:text="@string/_3rd_sem"-->
+<!--            android:textSize="20sp"-->
+<!--            android:layout_marginTop="15dp"/>-->
+<!--        <Button-->
+<!--            android:layout_width="150dp"-->
+<!--            android:layout_height="48dp"-->
+<!--            android:text="@string/_4th_sem"-->
+<!--            android:textSize="20sp"/>-->
+<!--        <Button-->
+<!--            android:layout_width="150dp"-->
+<!--            android:layout_height="48dp"-->
+<!--            android:text="@string/_5th_sem"-->
+<!--            android:textSize="20sp"/>-->
+<!--        <Button-->
+<!--            android:layout_width="150dp"-->
+<!--            android:layout_height="48dp"-->
+<!--            android:text="@string/_6thsem"-->
+<!--            android:textSize="20sp"/>-->
+
+    </com.google.android.material.appbar.AppBarLayout>
+</RelativeLayout>

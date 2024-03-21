@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Electronics">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginTop="25dp"
+        android:textAlignment="center"
+        android:text="@string/electronics_engineering"
+        android:textSize="22sp" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:text="@string/_3rd_sem"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:text="@string/_4th_sem"
+        android:textSize="20sp"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:text="@string/_5th_sem"
+        android:textSize="20sp"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:text="@string/_6thsem"
+        android:textSize="20sp"/>
+
+</LinearLayout>
