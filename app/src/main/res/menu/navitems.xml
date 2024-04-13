@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item
-        android:id="@+id/course"
 
-        android:title="@string/start_learning"/>
+    <item android:id="@+id/home"
+        android:title="@string/home"
+        android:icon="@drawable/baseline_auto_stories_24"/>
 <item
     android:id="@+id/contributors"
     android:icon="@drawable/_737366_45238"
     android:title="@string/our_contributors"/>
-<!--    <item-->
-<!--        android:id="@+id/developers"-->
-<!--        android:icon="@drawable/_1602236_21004063"-->
-<!--        android:title="@string/our_developers"/>-->
+    <item
+        android:id="@+id/developers"
+        android:icon="@drawable/baseline_back_hand_24"
+        android:title="@string/our_developers"/>
+    <item android:id="@+id/fyc"
+        android:icon="@drawable/baseline_abc_24"
+        android:title="@string/_1st_year_subjects"/>
+    <item android:id="@+id/pyq"
+android:icon="@drawable/baseline_auto_awesome_motion_24"
+        android:title="@string/pyqs"/>
 <!--    <item android:title="@string/camera"-->
 <!--        android:icon=""-->
 <!--        android:id="@+id/camera"/>-->

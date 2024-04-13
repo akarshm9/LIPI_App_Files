@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer"
     android:orientation="vertical"
+    tools:openDrawer="start"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
+
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -14,36 +17,58 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:id="@+id/toolbar"
+            android:background="#673AB7"
             app:layout_scrollFlags="scroll|enterAlways"
             tools:ignore="InvalidId"
             />
     </com.google.android.material.appbar.AppBarLayout>
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:orientation="vertical"-->
+<!--        tools:ignore="UselessParent">-->
+<!--        <TextView-->
+<!--            android:textAlignment="center"-->
+<!--            android:layout_marginTop="70dp"-->
+<!--            android:layout_width="350dp"-->
+
+<!--            android:layout_height="67dp"-->
+<!--            android:text="@string/welcome_to_lipi_by_the_era_engineers_choose_your_requirement_for_your_notes_or_syllabus"-->
+
+<!--            android:textSize="18sp"/>-->
+
+
+<!--        <Button-->
+<!--            android:id="@+id/syllabus"-->
+<!--            android:layout_width="285dp"-->
+<!--            android:layout_height="92dp"-->
+<!--            android:layout_margin="35dp"-->
+<!--            android:layout_marginStart="46dp"-->
+<!--            android:text="@string/syllabus"-->
+<!--            android:textSize="25sp" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/notes"-->
+<!--            android:layout_width="262dp"-->
+<!--            android:layout_height="95dp"-->
+<!--            android:layout_marginStart="46dp"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:text="@string/notes"-->
+<!--            android:textSize="25sp" />-->
+<!--    </LinearLayout>-->
+
+        <include layout="@layout/contents"/>
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+
+        android:id="@+id/nav"
+        android:layout_alignParentBottom="true"
+
+        app:menu="@menu/navitems"/>
     <!--    <include layout="@layout/activity_drawer_layout"/>-->
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:text="@string/welcome_to_lipi_by_the_era_engineers_choose_your_requirement_for_your_notes_or_syllabus"
-        android:textSize="18sp"/>
 
-    <Button
-        android:id="@+id/syllabus"
-        android:layout_width="285dp"
-        android:layout_height="92dp"
-        android:layout_margin="35dp"
-        android:layout_marginStart="46dp"
-        android:text="@string/syllabus"
-        android:textSize="25sp" />
-
-    <Button
-        android:id="@+id/notes"
-        android:layout_width="262dp"
-        android:layout_height="95dp"
-        android:layout_marginStart="46dp"
-        android:layout_marginTop="10dp"
-        android:text="@string/notes"
-        android:textSize="25sp" />
-
-</LinearLayout>
+</RelativeLayout>
 
 

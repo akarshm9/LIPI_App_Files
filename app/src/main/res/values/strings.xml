@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">PDF Viewer</string>
+    <string name="app_name">LIPI</string>
     <string name="button">Button</string>
     <string name="syllabus">Syllabus</string>
     <string name="notes">Notes</string>
@@ -18,8 +18,31 @@
     <string name="electrical_engineering">Electrical Engineering</string>
     <string name="electronics_engineering">Electronics Engineering</string>
     <string name="the_era_engineers">The Era Engineers</string>
-    <string name="our_contributors">Our Contributors</string>
-    <string name="our_developers">Our Developers</string>
+    <string name="our_contributors">Contributors</string>
+    <string name="our_developers">Developers</string>
     <string name="camera">Camera</string>
     <string name="start_learning">Start Learning</string>
+    <string name="slide_from_left_hand_side_for_more"><![CDATA[Slide from Left Hand Side for more ->]]></string>
+    <string name="amresh_kumar">Amresh Kumar</string>
+    <string name="civil_engineering">Civil Engineering</string>
+    <string name="_1st_year_subjects">1st year subjects</string>
+    <string name="amreshkumarstm9934_gmail_com">amreshkumarstm9934@gmail.com</string>
+    <string name="aashish_kumar_gupta">Aashish Kumar Gupta</string>
+    <string name="navOpener">Nav opener</string>
+    <string name="navCloser">Nav closer</string>
+    <string name="pyqs">PYQs</string>
+    <string name="home">home</string>
+    <string name="akarsh_kumar_mishra">Akarsh Kumar Mishra</string>
+    <string name="lipi">LIPI</string>
+    <string name="nishant_kumar">Nishant Kumar</string>
+    <string name="engineering_mathematics_1">Engineering Mathematics 1</string>
+    <string name="engineering_mathematics_2">Engineering Mathematics 2</string>
+    <string name="applied_chemistry">Applied Chemistry</string>
+    <string name="applied_physics_1">Applied Physics 1</string>
+    <string name="applied_physics_2">Applied Physics 2</string>
+    <string name="feee">FEEE</string>
+    <string name="engineering_graphics">Engineering Graphics</string>
+    <string name="engineering_mechanics">Engineering Mechanics</string>
+    <string name="intro_to_it_system">Intro to IT System</string>
+    <string name="communication_skills">Communication Skills</string>
 </resources>
